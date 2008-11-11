@@ -1,0 +1,133 @@
+* {
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	font-size: 12pt;
+}
+
+body {
+	text-align: center;
+}
+
+ul {
+	padding-left: 10mm;
+}
+
+li {
+	list-style-type: none;
+}
+
+li li {
+	display: inline;
+	list-style-type: none;
+}
+
+li li:before{
+	content: " | ";
+}
+
+li li:first-child:before {
+	content: "";
+}
+
+dl {
+	margin-left: 20mm;
+}
+
+dt {
+	display: list-item;
+	list-style-type: disc;
+	font-style: italic;
+}
+
+dd {
+	padding-top: 6pt;
+	padding-bottom: 6pt;
+}
+
+iframe {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.Marginless {
+	margin: 0px;
+}
+
+table.AnnotatedList {
+	padding-left: 10mm;
+	width: 90%;
+}
+
+table.AnnotatedList tr > td:first-child {
+	width: 60%;
+	font-size: inherit;
+	color: inherit;
+}
+
+table.AnnotatedList tr > td:first-child:before {
+	content: "";
+}
+
+table.AnnotatedList tr > td:first-child:after {
+	content: "";
+}
+
+table.AnnotatedList tr > td {
+	font-size: small;
+	color: gray;
+}
+
+table.AnnotatedList tr > td:before {
+	content: "[";
+}
+
+table.AnnotatedList tr > td:after {
+	content: "]";
+}
+
+div.Photos table {
+	margin-left: auto;
+	margin-right: auto;
+	border-spacing: 10px;
+}
+
+div.Photos table tr td {
+	border: 1px solid;
+	padding: 0px;
+}
+
+.About,.Classes,.Events,.Links,.Photos,.Contact {
+	margin-top: 7mm;
+	margin-bottom: 7mm;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid;
+	width: 740px;
+	text-align: left;
+	padding: 15px;
+}
+
+.About {
+	border-color: #FF9900;
+}
+
+.Classes {
+	border-color: #7BBD00;
+}
+
+.Events {
+	border-color: #1B00FF;
+}
+
+.Links {
+	border-color: #A231E9;
+}
+
+.Photos {
+	border-color: #C61094;
+	text-align: center;
+}
+
+.Contact {
+	border-color: #FF0000;
+}
