@@ -1,7 +1,0 @@
-#html {border: 4px solid #fcc; min-height: 768px;}
-h1 {color: #ff8080;}
-b, strong {color: #f66;}
-:link, :visited {color: #06f; text-decoration: none;}
-h3 :link, h3 :visited {color: #09f;}
-:link {border-bottom: 1px solid #39f;}
-:visited {border-bottom: 1px dotted #80bfff;}
