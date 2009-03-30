@@ -1,8 +1,6 @@
 body {background-color: #ffffff; font-family: Georgia, serif; padding: 0 2em 0}
 h1, h2, h3 {font-family: Trebuchet MS, Georgia, serif; font-style: italic}
 h1 {font-size: 3em; color: #daad3a; border-top: 1px solid #daad3a; border-bottom: 1px solid #daad3a; padding: 0.1em 0 0.1em}
-div.top {text-align: center}
-div.footer {text-align: center; font-size: smaller; border-top: 1px solid #daad3a; padding-top: 0.5em}
 p, li, dt, dd {line-height: 1.33em}
 li {padding-bottom: 0.17em}
 dt {font-weight: bold}
@@ -10,7 +8,10 @@ dd {padding-bottom: 0.51em}
 :link, :visited {color: #b22222; text-decoration: none;}
 :link {border-bottom: 1px solid #b22222}
 :visited {border-bottom: 1px dotted #b22222}
-div.footer a {border: none}
+.center {text-align: center}
 a img {border: none}
 a.img {border: none}
+div.badge {margin: 0; padding: 0; float: right; width: 200px; height: 144px}
+div.footer {text-align: center; font-size: smaller; border-top: 1px solid #daad3a; padding-top: 0.5em}
+div.footer a {border: none}
 
