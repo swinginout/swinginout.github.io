@@ -131,3 +131,8 @@ div.Photos table tr td {
 .Contact {
 	border-color: #FF0000;
 }
+
+.Video {
+	float: right;
+}
+
