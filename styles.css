@@ -136,3 +136,18 @@ div.Photos table tr td {
 	float: right;
 }
 
+.banner,.banner-title {
+	font-family: Georgia, serif;
+	font-size: large;
+	text-align: center
+}
+
+a.banner {
+	color: black;
+	text-decoration: none
+}
+
+.banner-title {
+	color: #6A5ACD;
+	font-size:x-large
+}
