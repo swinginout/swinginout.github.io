@@ -7,24 +7,24 @@ body {
 	text-align: center;
 }
 
-ul {
+ul.Bulletless {
 	padding-left: 10mm;
 }
 
-li {
+ul.Bulletless li {
 	list-style-type: none;
 }
 
-li li {
+ul.Bulletless li li {
 	display: inline;
 	list-style-type: none;
 }
 
-li li:before{
+ul.Bulletless li li:before {
 	content: " | ";
 }
 
-li li:first-child:before {
+ul.Bulletless li li:first-child:before {
 	content: "";
 }
 
