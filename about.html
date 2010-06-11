@@ -9,11 +9,14 @@
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.1/jquery-ui.min.js"></script>
 <script type="text/javascript">
+    // if "safespace" anchor is specified, start with accordion expanded
+	$anchor = window.location.href.split("#")[1];
+	$active = $anchor == "safespace" ? 0 : false;
 	$(function() {
-		// safespace accordion
+		// Safe Dance Space Guidelines accordion
 		$("#safespace").accordion({
 			collapsible: true,
-			active: false,
+			active: $active,
 			clearStyle: true
 		});
 	});	
