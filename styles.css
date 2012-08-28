@@ -147,6 +147,10 @@ a.banner {
 	text-decoration: none
 }
 
+sup {
+	font-family: inherit
+}
+
 .banner-title {
 	color: #6A5ACD;
 	font-size:x-large
