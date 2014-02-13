@@ -136,7 +136,7 @@ div.Photos table tr td {
 	float: right;
 }
 
-.banner,.banner-title {
+.subbanner,.banner,.banner-title {
 	font-family: Georgia, serif;
 	font-size: large;
 	text-align: center
